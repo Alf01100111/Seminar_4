@@ -17,7 +17,7 @@ void PrintArr(int[] arr)
     {
         System.Console.Write($"{arr[i]},");
     }
-    System.Console.Write("\b\b");          // не работает!
+    System.Console.Write("\b\b");          // почему бэкспейс не работает?
 }
 
 int[] HandArr(int j)
